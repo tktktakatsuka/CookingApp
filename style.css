@@ -1,0 +1,64 @@
+/* ここから共通設定 */
+body {
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 2カラムの箇所全体設定 */
+.row {
+    padding-top: 20px;
+}
+
+/* カラム左側の設定 */
+.col-8 {
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+/* カラム右側の設定 */
+.col-3 {
+    margin-left: 40px;
+    background-color: aliceblue;
+    text-align: center;
+}
+/* ここまで共通設定 */
+
+
+/* cardの設定 */
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2%;
+    margin-bottom: 50px;
+}
+/* ここまでtopページ */
+
+/* ここからメニュー画面設定 */
+li {
+    list-style: none;
+    text-align: left;
+    text-decoration:underline;
+    text-decoration-color: blue;
+    padding: 2px;
+}
+
+h2{
+    padding: 20px;
+}
+
+/* 料理手順画像 */
+.cookImg{
+margin-left: 10px;
+margin-bottom: 30px;
+border-radius: 1rem;
+
+}
+
+
+.cookTezyun {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 20px;
+}
